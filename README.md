@@ -1,6 +1,9 @@
 # README
 
 * Notes
+
+  * This is the first app I've written in Rails. It's a basic URL shortener that will take a URL that you give it and shorten it to [hostname]/[hash], where hash is a base62-encoded alphanumeric hash of the database id for the row containing the full URL you entered. If you try to visit an invalid URL, either one containing invalid characters or one with a hash that doesn't correspond to a DB entry, you will be redirected to an error page.
+
   * Future updates to make:
     * Add in check if URL already exists in database, and return hash for that entry instead of adding a new one
     * Add more detailed unit testing of show method in controller
