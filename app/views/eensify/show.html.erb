@@ -1,0 +1,11 @@
+<div class="eensyHeader">Awesome!</div>
+
+<div class="eensyDisplay">
+<h3>Your URL was eensified.</h3>
+
+<p>The new eensy URL is <%= link_to eensy_url(@url), eensy_url(@url) %>.</p>
+
+<p>The URL leads to <%= link_to @url.longUrl, @url.longUrl %>.</p>
+
+<p><%= link_to "Eensify another URL!", Rails.application.config.eensify_url %></p>
+</div>

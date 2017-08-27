@@ -1,0 +1,11 @@
+<div class="eensyHeader">Eensify your URL</div>
+
+<div class="eensyDisplay">
+  <%= form_for :urls do |f| %>
+
+    <%= f.label "Long URL" %>: <%= f.text_field :longUrl %><br />
+
+    <%= f.submit "Eensify" %>
+
+  <% end %>
+</div>
