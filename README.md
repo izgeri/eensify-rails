@@ -1,10 +1,5 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
 * Notes
 - Future updates to make:
  - Add in check if URL already exists in database, and return hash for that entry instead of adding a new one
